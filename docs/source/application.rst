@@ -1,8 +1,8 @@
 Application
 ===========
 
-.. _modules:
+.. _application:
 
-#. Step 1. DealerMargins
-#. Step 2. DealerMargins_CS
-#. Step 3. DealerMargins_IS
+#. DealerMargins
+#. DealerMargins_CS
+#. DealerMargins_IS
