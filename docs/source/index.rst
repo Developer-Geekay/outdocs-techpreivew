@@ -17,7 +17,4 @@ Contents
 
 .. toctree::
 
-   application
-   screens
-   actions
-   integrations
+   :ref:`application`

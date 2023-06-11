@@ -13,17 +13,53 @@ Modules
 #. DealerMargins_IS
     The integration service component enables communication and data exchange between the OutSystems applications and external systems or services. It facilitates integrations with external databases, web services, APIs, or other software systems. The integration service allows the OutSystems applications to interact with and retrieve data from external sources, as well as send data to those systems for further processing or storage.
 
-Contents
---------
-
 .. image:: images/modules.png
    :width: 600
 
-Quick Links
------------
 
-.. toctree::
+Interface
+=========
 
-   screens
-   actions
-   integrations
+**DealerMargins**
+
+UI Flows
+--------
+
+* Common
+    * Invalid Permission
+    * Login
+    * Consumer Credential (Block)
+    * Menu (Block)
+    * MenuIcon (Block)
+    * UserInfo (Block)
+* MainFlow
+    * Award Calculation
+    * Award Reports
+    * Award Generate
+    * Component
+    * Component Assignment
+    * Dealer
+    * Dealer Assignment
+    * Dealer Level Guarantee
+    * Plan
+    * Process
+    * Region
+    * Wholesale Transaction
+    * Legacy VIN
+    * Assign Component (Block)
+    * Award Report (Block)
+    * Component (Block)
+    * Component Summary (Block)
+    * Dealer Assignment (Block)
+    * Dealer Summary (Block)
+    * Error Log (Block)
+    * VIN Summary (Block)
+* Reports
+    * Report Index
+    * Report Template Upload
+    * Entity Reset (Dev)
+    * Dashboard Table (Block)
+* TableView
+    * Reference Master Upload (Dev & Admin)
+    * Backend Tables
+    * Table Component (Block)
