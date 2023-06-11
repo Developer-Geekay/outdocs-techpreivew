@@ -34,5 +34,6 @@ Calculation Flow:
 -----------------
 
 #. initiate calculation by clicking 'CalculateOnClick' screen action
+
 .. image:: images/Screens/Award_Calculation/CalculateOnClick.png
    :width: 600
