@@ -17,4 +17,4 @@ Contents
 
 .. toctree::
 
-   application :ref:`application`
+   application
