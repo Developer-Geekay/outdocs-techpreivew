@@ -31,7 +31,7 @@ UI Flows
     * MenuIcon (Block)
     * UserInfo (Block)
 * MainFlow
-    * Award Calculation :ref:`award_calculation`.
+    * :ref:`award_calculation`.
     * Award Reports
     * Award Generate
     * Component

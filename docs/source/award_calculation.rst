@@ -8,28 +8,31 @@ The award calculation for dealers involves a systematic process of evaluating th
 Reference:
 ----------
 
-Link: `Award Calculation` _.
-.. _Award Calculation: https://bml-dev.outsystemsenterprise.com/DealerMargins/AwardCalculation
+Link: `Award Calculation` https://bml-dev.outsystemsenterprise.com/DealerMargins/AwardCalculation
 
 Screenshot:
-.. image:: images/Screens/Award Calculation/award_calculation.png
+
+.. image:: images/Screens/Award_Calculation/award_calculation.png
    :width: 600
 
 Screen Actions:
-.. image:: images/Screens/Award Calculation/Screen_Actions.png
+
+.. image:: images/Screens/Award_Calculation/Screen_Actions.png
    :width: 400
 
 Variables:
-.. image:: images/Screens/Award Calculation/Screen_Variable.png
+
+.. image:: images/Screens/Award_Calculation/Screen_Variable.png
    :width: 400
 
 Data Source:
-.. image:: images/Screens/Award Calculation/Screen_Data.png
+
+.. image:: images/Screens/Award_Calculation/Screen_Data.png
    :width: 400
 
 Calculation Flow:
 -----------------
 
 #. initiate calculation by clicking 'CalculateOnClick' screen action
-.. image:: images/Screens/Award Calculation/CalculateOnClick.png
+.. image:: images/Screens/Award_Calculation/CalculateOnClick.png
    :width: 600
