@@ -17,5 +17,7 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   application
+   screens
+   actions
+   integrations
