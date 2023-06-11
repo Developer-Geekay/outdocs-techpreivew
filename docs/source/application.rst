@@ -17,10 +17,8 @@ Modules
    :width: 600
 
 
-Interface
-=========
-
-**DealerMargins**
+DealerMargins
+-------------
 
 UI Flows
 --------
