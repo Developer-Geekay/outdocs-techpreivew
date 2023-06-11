@@ -8,9 +8,9 @@ The award calculation for dealers involves a systematic process of evaluating th
 Reference:
 ----------
 
-Link: `Award Calculation` https://bml-dev.outsystemsenterprise.com/DealerMargins/AwardCalculation
+Link: https://bml-dev.outsystemsenterprise.com/DealerMargins/AwardCalculation
 
-Screenshot:
+Web View:
 
 .. image:: images/Screens/Award_Calculation/award_calculation.png
    :width: 600
@@ -33,7 +33,121 @@ Data Source:
 Calculation Flow:
 -----------------
 
-#. initiate calculation by clicking 'CalculateOnClick' screen action
+#. The calculation is initiated by selecting the 'CalculateOnClick' screen action.
 
 .. image:: images/Screens/Award_Calculation/CalculateOnClick.png
    :width: 600
+
+* The preceding step invokes the "Initiate Calculation" action, which creates an initial entry in the **Regional Payment Calculation** entity for either Primary or Retro entries.
+* Subsequently, the following actions are triggered:
+    #. Validate Process (Initiate Process)
+        * Consecutive Period Valdation
+        * Plan Configuratio Validation
+        * Wholesale Data Validation
+    #. Process Primary Calculation (Process Calculation)
+        * Default Dealer Component Award
+        * VIN Level Guarantee (VIN Monetory)
+        * VIN Level Component Awards (VIN Award By Component)
+        * Dealer Transfers (Transfer Adjustment)
+    #. Process Retro Calculation (if Any) (Process Retro Calculation)
+        * Retro Default Dealer Component Award
+        * Retro VIN Level Guarantee (VIN Monetory)
+        * Retro VIN Level Component Awards (VIN Award By Component)
+        * Retro Dealer Transfers (Transfer Adjustment)
+
+Initiate Calculation
+--------------------
+
+.. image:: images/Screens/Award_Calculation/InitiateCalculation.png
+    :width: 600
+
+Initiate Process
+----------------
+
+.. image:: images/Screens/Award_Calculation/ValidateConsecutivePeriod.png
+    :width: 600
+
+Consecutive Period Valdation
+----------------------------
+
+.. image:: images/Screens/Award_Calculation/ValidateConsecutivePeriod.png
+    :width: 600
+
+Plan Configuratio Validation
+----------------------------
+
+.. image:: images/Screens/Award_Calculation/ValidatePlanConfiguration.png
+    :width: 600
+
+Wholesale Data Validation
+-------------------------
+
+.. image:: images/Screens/Award_Calculation/ValidateWholesaleData.png
+    :width: 600
+
+Process Calculation
+-------------------
+
+.. image:: images/Screens/Award_Calculation/ProcessCalculation.png
+    :width: 600
+
+Default Dealer Component Award
+------------------------------
+
+.. image:: images/Screens/Award_Calculation/CalculateDefaultDealerAward.png
+    :width: 600
+
+Component Level Award & VIN Component Level Award
+-------------------------------------------------
+
+.. image:: images/Screens/Award_Calculation/ComponentLevelAward.png
+    :width: 600
+
+VIN Level Guarantee (VIN Monetory)
+----------------------------------
+
+.. image:: images/Screens/Award_Calculation/CalculateVINMonetoryGuarantees.png
+    :width: 600
+
+VIN Level Component Awards (VIN Award By Component)
+---------------------------------------------------
+
+.. image:: images/Screens/Award_Calculation/CalculateVINLevelComponentAward.png
+    :width: 600
+
+Dealer Transfers (Transfer Adjustment)
+--------------------------------------
+
+.. image:: images/Screens/Award_Calculation/CalculateTransferAdjustment.png
+    :width: 600
+
+Retor Process Calculation
+-------------------------
+
+.. image:: images/Screens/Award_Calculation/ProcessRetroCalculation.png
+    :width: 600
+
+Retro Default Dealer Component Award
+------------------------------------
+
+.. image:: images/Screens/Award_Calculation/Retro_CalculateDefaultDealerAward.png
+    :width: 600
+
+Retro VIN Level Guarantee (VIN Monetory)
+----------------------------------------
+
+.. image:: images/Screens/Award_Calculation/Retro_CalculateVINMonetoryGuarentee.png
+    :width: 600
+
+Retro VIN Level Component Awards (VIN Award By Component)
+---------------------------------------------------------
+
+.. image:: images/Screens/Award_Calculation/Retro_CalculateVINLevelComponentAward.png
+    :width: 600
+
+Retro Dealer Transfers (Transfer Adjustment)
+--------------------------------------------
+
+.. image:: images/Screens/Award_Calculation/Retro_CalculateTransferAdjustment.png
+    :width: 600
+
