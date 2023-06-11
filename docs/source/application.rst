@@ -1,7 +1,7 @@
+.. _application:
+
 Application
 ===========
-
-.. _application:
 
 Modules
 -------
@@ -31,7 +31,7 @@ UI Flows
     * MenuIcon (Block)
     * UserInfo (Block)
 * MainFlow
-    * Award Calculation :ref:`award_calculation`
+    * Award Calculation :ref:`award_calculation`.
     * Award Reports
     * Award Generate
     * Component
